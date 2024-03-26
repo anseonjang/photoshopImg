@@ -3,30 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
-   
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title> 이름 - 포토샵 </title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             background-color: #ddd;
+            padding: 20px;
+
         }
 
         /* background-color - 배경색*/
         /* m0:auto */
         .pf {
+            border: 1px solid red;
             width: 600px;
-            margin: 0 auto;
+            margin: 100px auto;
+          
         }
 
         /* margin: 0 auto 상하, 좌우*/
         .pf>div {
-            margin: 100px;
+            /* margin: 100px; */
+            margin-bottom: 100px;
         }
 
         /*margin: 30px;  상하좌우 30px*/
         .pf img {
+            box-sizing: border-box;
             width: 600px;
-            border:10px solid #fff; /* border : 선*/ 
-            box-shadow: 0 0 30px rgba(0,0,0,0.3); /*0,0,0,0.3 - 검정, 30% 투명도 */
+            border: 10px solid #fff;
+            /* border : 선*/
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            /*0,0,0,0.3 - 검정, 30% 투명도 */
         }
     </style>
 </head>
